@@ -1,0 +1,22 @@
+{
+  "kind": "synthetic",
+  "device": {"model": "A1470", "firmware": "7.9.1"},
+  "switch_mode": "0x07",
+  "control0": "0xe3",
+  "control4": "0xc4",
+  "control5": "0x10",
+  "ports": [
+    {"port": 0, "pvid": 18, "pvlan_mask": "0x010f"},
+    {"port": 1, "pvid": 18, "pvlan_mask": "0x010f"},
+    {"port": 2, "pvid": 18, "pvlan_mask": "0x010f"},
+    {"port": 3, "pvid": 18, "pvlan_mask": "0x010f"},
+    {"port": 8, "pvid": 18, "pvlan_mask": "0x010f"}
+  ],
+  "vlans": [
+    {"vid": 18, "entry": "0x00221f0f"},
+    {"vid": 200, "entry": 0},
+    {"vid": 300, "entry": 0},
+    {"vid": 400, "entry": 0},
+    {"vid": 1003, "entry": 0}
+  ]
+}

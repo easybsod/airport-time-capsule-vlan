@@ -1,0 +1,65 @@
+# Binary/build artifacts
+/build/
+*.o
+*.a
+*.so
+*.elf
+*.netbsd
+*.img
+*.bin
+*.core
+*.dmp
+
+# Private diagnostics, traces and secrets
+/private-logs/
+**/private-logs/
+*.pcap
+*.pcapng
+*.log
+*.jsonl
+*.pem
+*.key
+id_*
+*.secret
+.ssh/
+known_hosts
+authorized_keys
+*.p12
+*.pfx
+*.kdbx
+.env
+.env.*
+*ssh_config*
+
+# Python / editors / temporary files
+__pycache__/
+*.py[cod]
+.venv/
+.vscode/
+.idea/
+*.swp
+*.tmp
+*~
+.DS_Store
+._*
+Thumbs.db
+
+# Local SDKs, firmware research, exports and backups
+/sdk/
+/firmware/
+/research/
+/dist/
+*.bak
+*.backup
+*.orig
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Local publication notes and internal evidence indexes
+/SOURCE-MANIFEST.json
+/docs/PUBLISHING.md
+/docs/*AUDIT*.md
+/docs/evidence-index.json
+/docs/evidence-and-provenance.md
